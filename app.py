@@ -4,3 +4,7 @@ app = Flask(_name_)
 def home():
   return "merhaba , benemirhan!"
 
+
+@app.route/about
+def about 
+return "hakkımda sayfası"
