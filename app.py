@@ -2,9 +2,10 @@ from Flask import Flask
 app = Flask(_name_)
 @app.route('/')
 def home():
-  return "merhaba , benemirhan!"
+  return "merhaba , guys!"
 
 
-@app.route/about
-def about 
-return "hakkımda sayfası"
+@app.route ('/about')
+def about():
+  return "hakkımda"
+
